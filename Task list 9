@@ -1,0 +1,7 @@
+originallist = [5, 32, 1, 3]
+
+newList = list(originallist)
+
+print(originallist)
+
+print(newList)
