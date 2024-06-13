@@ -5,4 +5,4 @@ def charsMixUp(a, b):
 
     return newA + ' ' + newB
 
-print(charsMixUp('abc', 'xyz'))  # Output: 'xyc abz'
+print(charsMixUp('abc', 'xyz')) 
