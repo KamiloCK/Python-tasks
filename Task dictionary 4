@@ -1,0 +1,17 @@
+def keyInD(d, key):
+    return (key in d)
+
+students = {
+    'Roman': 19,
+    'Julian': 22,
+    'Kamil': 21,
+    'Andrzej': 20
+}
+
+print("\nOriginal dictionary elements:")
+
+print(students)
+
+print(keyInD(students, 'Sebastian'))
+
+print(keyInD(students, 'Roman'))
