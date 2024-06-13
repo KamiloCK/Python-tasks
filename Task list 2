@@ -1,0 +1,7 @@
+def multiplyList(items):
+    tot = 1
+    for x in items:
+        tot *= x
+    return tot
+
+print(multiplyList([2, -3, 6]))
