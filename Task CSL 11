@@ -1,0 +1,11 @@
+rowNum = int(input("Input number of rows: "))
+
+colNum = int(input("Input number of columns: "))
+
+multiList = [[0 for col in range(colNum)] for row in range(rowNum)]
+
+for row in range(rowNum):
+    for col in range(colNum):
+        multiList[row][col] = row * col
+
+print(multiList) 
