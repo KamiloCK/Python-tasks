@@ -1,0 +1,7 @@
+def sumList(items):
+    sumNumbers = 0
+    for x in items:
+        sumNumbers += x
+    return sumNumbers
+
+print(sumList([3, -1, 20]))
