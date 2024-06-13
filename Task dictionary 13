@@ -1,0 +1,7 @@
+keys = ['One', 'Two', 'Three']
+
+values = ['1', '2', '3']
+
+numbersD = dict(zip(keys, values))
+
+print(numbersD)
