@@ -1,0 +1,7 @@
+def insertEnd(str):
+    subStr = str[-2:]
+    
+    return subStr * 4
+
+print(insertEnd('Python'))   
+print(insertEnd('Exercises'))
