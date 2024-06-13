@@ -1,0 +1,8 @@
+def smallestNum(list):
+    min = list[0]
+    for a in list:
+        if a < min:
+            min = a
+    return min
+
+print(smallestNum([4, 20, -10, 6])) 
