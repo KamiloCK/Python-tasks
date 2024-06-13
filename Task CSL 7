@@ -1,0 +1,4 @@
+datalist = [1, 21.46, 23+5j, True, 'w3resource', (0, -1), [5, 12], {"class": 'V', "section": 'A'}]
+
+for item in datalist:
+    print("Type of", item, "is", type(item)) 
