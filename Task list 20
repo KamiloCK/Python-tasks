@@ -1,0 +1,3 @@
+nums = [2, 25, 6, 100, 23]
+for numIndex, numVal in enumerate(nums):
+    print(numIndex, numVal)
