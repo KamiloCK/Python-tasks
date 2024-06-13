@@ -1,0 +1,8 @@
+d = {'digit1': 2, 'digit2': 10, 'digit3': -3}
+
+result = 1
+
+for key in d:
+    result = result * d[key]
+
+print(result) 
