@@ -1,0 +1,9 @@
+d = {'a': 1, 'b': 2, 'c': 3}
+
+keyMax = max(d.keys(), key=(lambda k: d[k]))
+
+keyMin = min(d.keys(), key=(lambda k: d[k]))
+
+print('Maximum Value: ', d[keyMax])
+
+print('Minimum Value: ', d[keyMin])
