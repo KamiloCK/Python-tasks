@@ -1,0 +1,14 @@
+def findLongestWord(wordsList):
+    wordLen = []
+
+    for n in wordsList:
+        wordLen.append((len(n), n))
+
+    wordLen.sort()
+
+    return wordLen[-1][0], wordLen[-1][1]
+
+result = findLongestWord(["PHP", "Exercises", "Backend"])
+
+print("\nLongest word: ", result[1])
+print("Length of the longest word: ", result[0])
