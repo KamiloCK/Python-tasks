@@ -1,0 +1,11 @@
+a = [5, 32, 4, 23, 5, 23, 50]
+
+dupItems = set()
+uniqItems = []
+
+for x in a:
+    if x not in dupItems:
+        uniqItems.append(x)
+        dupItems.add(x)
+
+print(dupItems) 
