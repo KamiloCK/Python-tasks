@@ -1,0 +1,6 @@
+def insertStringMiddle(str, word):
+    return str[:2] + word + str[2:]
+
+print(insertStringMiddle('[[]]', 'Python'))  
+print(insertStringMiddle('{{}}', 'PHP'))    
+print(insertStringMiddle('<<>>', 'HTML'))    
