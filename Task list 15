@@ -1,0 +1,7 @@
+from random import shuffle
+
+numbers = ['One', 'Two', 'Three', 'Four']
+
+shuffle(numbers)
+
+print(numbers)
