@@ -1,0 +1,10 @@
+def removeChar(str, n):
+    firstPart = str[:n]
+
+    lastPart = str[n+1:]
+
+    return firstPart + lastPart
+
+print(removeChar('Testword', 7))  
+print(removeChar('Testword', 2))  
+print(removeChar('Testword', 4))  
