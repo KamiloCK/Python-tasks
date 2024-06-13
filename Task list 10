@@ -1,0 +1,12 @@
+def longWords(n, str):
+    wordLen = []
+
+    txt = str.split(" ")
+
+    for x in txt:
+        if len(x) > n:
+            wordLen.append(x)
+
+    return wordLen
+
+print(longWords(4, "The test word on the world"))
