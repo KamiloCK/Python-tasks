@@ -1,0 +1,11 @@
+list1 = [2, 5, 10, 6, 12]
+
+list2 = [1, 2, 43, 12, 112, 60]
+
+diffList1List2 = list(set(list1) - set(list2))
+
+diffList2List1 = list(set(list2) - set(list1))
+
+totalDiff = diffList1List2 + diffList2List1
+
+print(totalDiff)
