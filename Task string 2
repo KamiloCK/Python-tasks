@@ -11,4 +11,4 @@ def charFrequency(str1):
     
     return dict
 
-print(charFrequency('testword')) 
+print(charFrequency('google.com')) 
