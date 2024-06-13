@@ -1,0 +1,8 @@
+def charsMixUp(a, b):
+    newA = b[:2] + a[2:]
+
+    newB = a[:2] + b[2:]
+
+    return newA + ' ' + newB
+
+print(charsMixUp('abc', 'xyz'))  # Output: 'xyc abz'
