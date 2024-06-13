@@ -4,6 +4,6 @@ def stringBothEnds(str):
 
     return str[0:2] + str[-2:]
 
-print(stringBothEnds('w3resource'))  # Output: 'w3ce'
-print(stringBothEnds('w3'))          # Output: 'w3w3'
-print(stringBothEnds('w'))           # Output: '' 
+print(stringBothEnds('w3resource'))  
+print(stringBothEnds('w3'))          
+print(stringBothEnds('w'))   
