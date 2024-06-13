@@ -1,0 +1,5 @@
+userInput = input("What's your name? ")
+
+print("My name is ", userInput.upper())
+
+print("My name is ", userInput.lower()) 
